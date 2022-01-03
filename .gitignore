@@ -1,0 +1,135 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/swift,git,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=swift,git,macos
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# CocoaPods
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# Pods/
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+# End of https://www.toptal.com/developers/gitignore/api/swift,git,macos
+# Dibuat oleh https://www.toptal.com/developers/gitignore/api/swift,git,macos # Edit di https://www.toptal.com/developers/gitignore?templates=swift,git,macos ### Git ### # Dibuat oleh git untuk cadangan. Untuk menonaktifkan pencadangan di Git: # $ git config --global mergetool.keepBackup false *.orig # Dibuat oleh git saat menggunakan alat gabungan untuk konflik *.CADANGAN.* *.BASIS.* *.LOKAL.* *.TERPENCIL.* *_BACKUP_*.txt *_BASE_*.txt *_LOCAL_*.txt *_REMOTE_*.txt ### macOS ### # Umum .DS_Store .AppleDouble .LSOverride # Ikon harus diakhiri dengan dua \r ikon # Gambar Mini ._* # File yang mungkin muncul di root volume .Revisi Dokumen-V100 .fseventsd .Sorotan-V100 .Item Sementara .Sampah .VolumeIcon.icns .com.apple.timemachine.donotpresent # Direktori yang berpotensi dibuat pada berbagi AFP jarak jauh .AppleDB .AppleDesktop Folder Sampah Jaringan Barang Sementara .apdisk ### Cepat ### # Xcode # # kontributor gitignore: ingat untuk memperbarui Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore ## Pengaturan pengguna xuserdata/ Kompatibilitas ## dengan Xcode 8 dan sebelumnya (mengabaikan tidak diperlukan mulai Xcode 9) *.xcscmblueprint *.xccheckout Kompatibilitas ## dengan Xcode 3 dan sebelumnya (mengabaikan tidak diperlukan mulai Xcode 4) membangun/ Data Berasal/ *.pindah-samping *.pbxuser !default.pbxuser *.mode1v3 !default.mode1v3 *.mode2v3 !default.mode2v3 *.perspektifv3 !default.perspectivev3 ## Obj-C/Swift khusus *.hmap ## Kemasan aplikasi *.ipa *.dSYM.zip *.dSYM ## Taman bermain timeline.xctimeline taman bermain.xcworkspace # Manajer Paket Swift # Tambahkan baris ini jika Anda ingin menghindari memeriksa kode sumber dari dependensi Swift Package Manager. # Paket/ # Paket.pin # Paket. terselesaikan # *.xcodeproj # Xcode secara otomatis membuat direktori ini dengan file .xcworkspacedata dan xcuserdata # karenanya tidak diperlukan kecuali Anda telah menambahkan file konfigurasi paket ke proyek Anda # .swiftpm .membangun/ # CocoaPods # Kami menyarankan untuk tidak menambahkan direktori Pods ke .gitignore Anda. Namun # Anda harus menilai sendiri, pro dan kontra disebutkan di: # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control # Pod/ # Tambahkan baris ini jika Anda ingin menghindari memeriksa kode sumber dari ruang kerja Xcode # *.xcworkspace # Kartago # Tambahkan baris ini jika Anda ingin menghindari memeriksa kode sumber dari dependensi Carthage. # Kartago/Checkout Kartago/Bangun/ # Manajemen ketergantungan Accio Ketergantungan/ .accio/ # jalur cepat # Disarankan untuk tidak menyimpan tangkapan layar di git repo. # Sebagai gantinya, gunakan fastlane untuk membuat ulang tangkapan layar kapan pun dibutuhkan. # Untuk informasi lebih lanjut tentang kunjungan penyiapan yang disarankan: # https://docs.fastlane.tools/best-practices/source-control/#source-control fastlane/laporan.xml fastlane/Preview.html fastlane/screenshot/**/*.png fastlane/test_output # Injeksi Kode # Setelah alat Injeksi kode baru ada folder /iOSInjectionProject yang dihasilkan # https://github.com/johnno1962/injectionforxcode ProyekInjeksi iOS/ # Akhir https://www.toptal.com/developers/gitignore/api/swift,git,macos
+translated from: English
