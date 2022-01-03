@@ -1,1 +1,3 @@
 # Weathers Apps
+Weather app allows users to know the current weather. This application is made using the Swift programming language and has many features such as knowing the current weather, knowing the minimum and maximum temperature, knowing the humidity, location, and wind speed.![Simulator Screen Shot - iPhone 12 - 2022-01-03 at 13 56 30](https://user-images.githubusercontent.com/57612335/147905981-97e43126-3793-40c0-86e1-ab91fe563271.png)
+![Simulator Screen Shot - iPhone 12 - 2022-01-03 at 13 56 37](https://user-images.githubusercontent.com/57612335/147905986-44e32fed-15a7-4db6-bc31-7c23d19a0e26.png)
